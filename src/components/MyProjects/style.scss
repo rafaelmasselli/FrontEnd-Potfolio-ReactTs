@@ -1,0 +1,36 @@
+.box-projects {
+  width: 95%;
+  height: 86px;
+
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+
+  &:hover {
+    background: #cb92b1;
+    cursor: pointer;
+    transition: 0.5s;
+
+    .title-myProjects,
+    .text-myProjects {
+      color: black;
+    }
+  }
+}
+.title-myProjects {
+  margin: 22px;
+}
+.text-myProjects {
+  margin: 35px 30px 30px 30px;
+}
+
+.container-myProjects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

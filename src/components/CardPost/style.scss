@@ -1,0 +1,57 @@
+.box-card-post {
+  width: 95%;
+  height: 201px;
+
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin-top: 20px;
+
+  display: flex;
+  align-items: center;
+}
+
+.img-card-post {
+  margin: 30px;
+}
+
+.container-card-post-text {
+  align-items: center;
+
+  h1 {
+    font-family: "Merriweather Sans";
+    font-style: normal;
+
+    color: #837e9f;
+    margin-bottom: 11px;
+  }
+}
+
+.box-text {
+  margin: 28px 0 28px 0;
+}
+
+.title-text {
+  font-size: 18px;
+}
+
+.sub-text {
+  font-size: 16px;
+}
+
+.container-tag {
+  display: flex;
+  align-items: center;
+
+  h3 {
+    margin-right: 10px;
+  }
+}
+
+
+@media(max-width: 964px){
+  .box-card-post{
+    height: auto;
+    width: auto;
+  }
+}

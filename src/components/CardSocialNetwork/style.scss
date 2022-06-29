@@ -1,0 +1,34 @@
+.box-social-network {
+  width: 348px;
+  height: 310px;
+
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+
+  margin-top: 40px;
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.social-network {
+  display: flex;
+
+  margin: 25px 0 10px 40px;
+
+  p {
+    font-family: "Merriweather Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+ 
+    margin-left: 20px;
+
+  }
+
+  a{
+    text-decoration: none;
+  }
+}

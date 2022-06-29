@@ -1,0 +1,51 @@
+.box-card-stack {
+  width: 348px;
+  height: 270px;
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+
+  margin-top: 40px;
+}
+
+.title-tecnologias {
+  font-family: "Merriweather Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+
+  margin: 30px 0 0 20px;
+}
+
+.box-stack {
+  width: 86px;
+  height: 24px;
+
+  background: #cb92b1;
+  border-radius: 30px;
+
+  margin: 8px;
+}
+
+.container-box-stack {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+  margin-top: 26px;
+}
+
+.content-stack {
+  font-family: "Merriweather Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 3px;
+
+  text-align: center;
+
+  color: #000000;
+}
