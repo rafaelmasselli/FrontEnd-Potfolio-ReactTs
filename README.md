@@ -6,7 +6,6 @@
 
 ### portfolio com todos os projetos do git hub
 
-![](/.github/exempleproject.gif)
 
 ## 🚀 Iniciando o projeto com docker
 
